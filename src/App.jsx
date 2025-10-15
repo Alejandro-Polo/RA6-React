@@ -1,5 +1,10 @@
 import ListaArticulos from "./assets/components/ListaArticulos";
 
+/**
+ * Componente principal de la aplicación React.
+ * @component
+ * @returns {JSX.Element} Estructura visual del componente.
+ */
 export default function App() {
   return (
     <div className="container py-4">

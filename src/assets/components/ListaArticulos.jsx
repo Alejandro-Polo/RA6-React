@@ -1,6 +1,15 @@
 import { useEffect, useState } from "react";
 import { getArticulos } from "../services/api";
 
+/**
+ * Componente que muestra una lista de artículos obtenidos desde la API Symfony.
+ *
+ * @component
+ * @example
+ * return (
+ *   <ListaArticulos />
+ * )
+ */
 export default function ListaArticulos() {
   const [articulos, setArticulos] = useState([]);
   const [error, setError] = useState(null);
