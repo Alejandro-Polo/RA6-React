@@ -27,12 +27,12 @@ export default function ListaArticulos() {
       {articulos.map((a) => (
         <div key={a.id} className="col-md-4 mb-4">
           <div className="card h-100 shadow-sm">
-            <img src={a.foto} className="card-img-top" alt={a.nombre} />
+            {/* <img src={a.foto} className="card-img-top" alt={a.nombre} /> */}
             <div className="card-body">
-              <h5 className="card-title">{a.nombre}</h5>
+              <h5 className="card-title">{a.titulo}</h5>
               <p className="card-text">{a.descripcion}</p>
               <div className="d-flex justify-content-between align-items-center">
-                <span className="fw-bold text-primary">{a.precio} €</span>
+                {/* <span className="fw-bold text-primary">{a.precio} €</span> */}
                 <span>{"⭐".repeat(a.valoracion)}</span>
               </div>
             </div>
