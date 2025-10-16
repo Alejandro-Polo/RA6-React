@@ -4,7 +4,9 @@ import { getArticulos } from "../services/api";
 /**
  * Componente que muestra una lista de comentarios obtenidos desde la API Symfony.
  *
+ * @function ListaComentarios
  * @component
+ * @returns < />
  * @example
  * return (
  *   <ListaComentarios />
